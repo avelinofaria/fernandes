@@ -1,0 +1,356 @@
+
+html {min-height: 100%;}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {color: #4ba5da;}
+a:hover {color: #282828;}
+
+body {
+    /*background: #4ba5da;*/
+    background: #FD9A33;
+    color: #282828;
+    font: normal 62.5% Tahoma,sans-serif;
+    padding-top: 20px;
+}
+
+p,code,ul {padding-bottom: 1.2em;}
+
+li {list-style: none;}
+
+h1 {font: normal 1.8em Tahoma,sans-serif;}
+h2 {font: bold 1.4em sans-serif;}
+h3 {font: bold 1em Tahoma,sans-serif;}
+
+form,input {margin: 0; padding: 0; display: inline;}
+
+code {
+    background: #FFF;
+    border: 1px solid #EEE;
+    color: #666;
+    display: block;
+    font: normal 1em Tahoma,sans-serif;
+    line-height: 1.6em;
+    margin-bottom: 12px;
+    padding: 8px 10px;
+    white-space: pre;
+}
+
+
+
+h1,h2,h3 {padding-top: 6px; color: #4ba5da; margin-bottom: 4px;}
+
+
+.clearer {clear: both; font-size: 0;}
+.left {float: left;}
+.right {float: right;}
+
+
+.inner-container {
+    border: 0px solid #b1b1b1;
+    background: #FFF;
+    font-size: 1.2em;
+    margin: 0 auto;
+    padding: 10px;
+    width: 750px;
+}
+
+.outer-container {
+    /*background: #b5d3ef url('images/bg.jpg') repeat-x;*/
+    background: #FCFE9A url('images/bg1.jpg') repeat-x;
+    padding-bottom: 24px;
+}
+
+
+.header {
+    position: relative;
+    left: 250px;
+    width: 499px;
+    height: 250px;
+    margin-bottom: 0px;
+    background: #222 url('images/paisagem-xa.jpg') no-repeat;
+    /*text-align: center;*/
+}
+
+
+.header .title {
+    color: #FFF;
+    padding-top: 50px;
+}
+
+
+.header .nome {
+    color: #ffffff;
+    float:left;
+    font-size: 3em;
+    font-style: italic;
+    /*letter-spacing: 0.2em;*/
+    font-family: 'Times New Roman';
+    padding-top:  0px;
+    font-weight: bold;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+
+.header .title a:hover {border-color: #F60;}
+
+
+.header .title .mote a {
+    color: #ffffff;
+    float:right;
+    font-size: 3em;
+    font-style: italic;
+    letter-spacing: 0.2em;
+    font-family: 'Times New Roman';
+    padding-top: 120px;
+    font-weight: bold;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+
+.header .title .tag {
+    text-align: right;
+    font-size: 1.3em;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 0.2em;
+    font-family: 'Times New Roman';
+    padding-top: 170px;
+    padding-right: 25px;
+}
+
+.navigation {
+    /*float: left;*/
+    position: absolute;
+    top: 30px;
+    width: 237px;
+}
+.navigation h2 {
+    color: #7bcd5f;
+    font: bold 1.6em Tahoma,sans-serif;
+    line-height: 30px;
+    margin: 0;
+    padding-left: 11px;
+}
+.navigation ul {
+    padding-bottom: 10px;
+    border-top: 1px solid #7bcd5f;
+}
+.navigation li {border-bottom: 1px solid #b1b1b1;}
+.navigation li a {
+    font-size: 1.1em;
+    color: #7c7c7c;
+    display: block;
+    padding: 8px 0 8px 5%;
+    text-decoration: none;
+    width: 95%;
+}
+.navigation li a:hover {
+    background: #c7c7c7;
+    color: #282828;	
+}
+
+
+.main {
+    background: #ffffff;
+    padding: 0px 10px 0 0;
+}
+
+.main a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.main a:hover {
+    background: yellow;
+}
+
+.content {
+    float: right;
+    width: 480px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top:10px;
+    text-align: justify;
+}
+
+.content p {font-family: "Lucida Sans Unicode",sans-serif;}
+
+
+.footer {
+    background: #7bcd5f;
+    color: #F7F7F2;
+    font: bold 1em sans-serif;
+    margin-top: 5px;
+    padding: 10px 12px;
+    text-align: left;
+}
+.footer a {
+    color: #F7F7F2;
+    text-decoration: none;
+}
+.footer a:hover {color: #282828;}
+
+.valid 
+{
+    margin-top: 150px;
+    text-align: center;
+    padding-top:5px;
+}
+
+
+
+/* 
+ * Versículos bíblicos em destaque.
+ */
+#versiculo {
+    font-family: "Times New Roman", "Arial";
+    font-style: italic;
+    font-weight: 600;
+    font-size: 11pt;
+    padding: 10px 20px 5px 20px;
+}
+
+
+/* 
+ * Referências dos versículos biblicos em destaque.
+ */
+#verref {
+    color: navy;
+    font-style: normal;
+    font-weight: 800;
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+/*
+ * Formatação de listas.
+ */
+#navcontainer ul
+{
+    margin: 30px 0 200px 0;
+    padding-left: 60px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 600;
+    /*font-size: 14px;*/
+}
+
+#navcontainer li { 
+    margin: 18px 0 18px 0;
+    padding: 2px 2px 2px 2px;
+    list-style: disc url(images/pdf25.jpg);
+	height:30px;
+	line-height: 30px;
+}
+
+#navcontainer li a
+{
+    display: block;
+    padding: 2px 2px 2px 10px;
+    /*border: 1px solid #333;*/
+    width: 400px;
+    background-color: #FFFFDD;
+    color: #444444;
+    vertical-align: middle;
+}
+
+#navcontainer a:link, a:visited
+{
+    color: #444444;
+    text-decoration: none;
+}
+
+#navcontainer a:hover
+{
+    /*border: 1px solid #333;*/
+    background-color: #FCFE9A;
+    color: #CC1616;
+}
+
+
+
+.imgbooks
+{
+   border: 0px solid; 
+   width: 94px; 
+   height: 140px; 
+}
+
+
+.imglupa
+{
+   border: 0px solid; 
+   width: 30px; 
+   height: 22px;
+   padding-left: 10px;
+}
+
+
+
+.tabooks
+{
+    text-align: left; 
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 10px;
+}
+
+
+.tabooks td
+{
+    vertical-align: top;
+    text-align: justify;
+    padding: 10px;
+}
+
+
+.tabcertifs
+{
+    text-align: left; 
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 10px;
+}
+
+
+.tabcertifs td
+{
+    vertical-align: middle;
+    text-align: justify;
+    padding: 10px;
+}
+
+
+/*
+ * Lista de Links
+ */
+.tlinks {
+    width: 430px;
+    margin-left: 20px;
+    font-family: Tahoma, sans-serif;
+}
+
+.tlinks td {
+    height: 25px;
+    margin: 7px 0 7px 20px;
+    padding: 2px 2px 2px 2px;
+    vertical-align: middle;
+    /*list-style: disc url(images/arrow-red.jpg) inside;*/
+}
+
+
+.tlinks td a {
+    /*display: block;*/
+    padding: 2px 2px 2px 0px;
+    background-color: #FFFFDD;
+    color: #444444;
+    font-weight: 600;
+}
+
